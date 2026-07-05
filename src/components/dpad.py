@@ -98,28 +98,28 @@ def render(state: AppState) -> str:
     up = _button(
         up_x,
         up_y,
-        f"{BASE_URL}/input?btn=UP&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=UP&return_to=vercel",
         state.pressed == "UP",
     )
 
     down = _button(
         down_x,
         down_y,
-        f"{BASE_URL}/input?btn=DOWN&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=DOWN&return_to=vercel",
         state.pressed == "DOWN",
     )
 
     left = _button(
         left_x,
         left_y,
-        f"{BASE_URL}/input?btn=LEFT&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=LEFT&return_to=vercel",
         state.pressed == "LEFT",
     )
 
     right = _button(
         right_x,
         right_y,
-        f"{BASE_URL}/input?btn=RIGHT&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=RIGHT&return_to=vercel",
         state.pressed == "RIGHT",
     )
 
