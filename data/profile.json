@@ -1,0 +1,52 @@
+{
+    "type": "profile",
+    "title": "Developer Profile",
+
+    "panel": {
+        "title": "Developer Profile",
+        "description": [
+            "An overview of my",
+            "background, education,",
+            "technical interests",
+            "and developer identity."
+        ],
+        "pages": [
+            {
+                "title": "About Me",
+                "description": [
+                    "Learn who I am,",
+                    "what I study and",
+                    "what I enjoy building."
+                ],
+                "illustration": "profile"
+            }
+        ]
+    },
+
+    "pages": [
+        {
+            "items": [
+                {
+                    "title": "Name",
+                    "subtitle": "Pranjal Pandey"
+                },
+                {
+                    "title": "Role",
+                    "subtitle": "AI & Robotics Engineering Student"
+                },
+                {
+                    "title": "Education",
+                    "subtitle": "B.Tech Artificial Intelligence"
+                },
+                {
+                    "title": "Interests",
+                    "subtitle": "AI • Robotics • CP"
+                },
+                {
+                    "title": "GitHub",
+                    "subtitle": "UpstairsEngineer48"
+                }
+            ]
+        }
+    ]
+}

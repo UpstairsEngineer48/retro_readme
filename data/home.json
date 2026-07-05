@@ -1,0 +1,88 @@
+{
+    "type": "menu",
+    "title": "Main Menu",
+
+    "panel": {
+        "title": "PRANJAL OS",
+        "description": [
+            "Welcome to the",
+            "interactive developer",
+            "portfolio. Navigate",
+            "using the D-pad."
+        ],
+        "pages": [
+            {
+                "title": "Developer Profile",
+                "description": [
+                    "Learn about the",
+                    "developer's background,",
+                    "education and interests."
+                ],
+                "illustration": "profile"
+            },
+            {
+                "title": "Skills",
+                "description": [
+                    "Explore programming,",
+                    "AI, robotics and",
+                    "technical expertise."
+                ],
+                "illustration": "skills"
+            },
+            {
+                "title": "Projects",
+                "description": [
+                    "Browse software,",
+                    "robotics and open",
+                    "source projects."
+                ],
+                "illustration": "projects"
+            },
+            {
+                "title": "Journey",
+                "description": [
+                    "Follow the learning",
+                    "path from beginner",
+                    "to current goals."
+                ],
+                "illustration": "journey"
+            },
+            {
+                "title": "Contact",
+                "description": [
+                    "Find GitHub,",
+                    "LinkedIn, email",
+                    "and portfolio links."
+                ],
+                "illustration": "contact"
+            }
+        ]
+    },
+
+    "pages": [
+        {
+            "items": [
+                {
+                    "title": "Developer Profile",
+                    "icon": "profile"
+                },
+                {
+                    "title": "Skills",
+                    "icon": "skills"
+                },
+                {
+                    "title": "Projects",
+                    "icon": "projects"
+                },
+                {
+                    "title": "Journey",
+                    "icon": "journey"
+                },
+                {
+                    "title": "Contact",
+                    "icon": "contact"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "journey",
+    "title": "Journey",
+
+    "panel": {
+        "title": "Journey",
+        "description": [
+            "Follow the milestones",
+            "that shaped my path",
+            "from programming to",
+            "AI and robotics."
+        ],
+        "pages": [
+            {
+                "title": "Learning Journey",
+                "description": [
+                    "A chronological view",
+                    "of the major stages",
+                    "of my technical",
+                    "growth."
+                ],
+                "illustration": "journey"
+            }
+        ]
+    },
+
+    "pages": [
+        {
+            "items": [
+                {
+                    "year": "2023",
+                    "title": "Started Programming with Python"
+                },
+                {
+                    "year": "2024",
+                    "title": "Learned Databases and HTML/CSS"
+                },
+                {
+                    "year": "2025",
+                    "title": "Started Competitive Programming"
+                },
+                {
+                    "year": "2026",
+                    "title": "Built AI & Robotics Projects"
+                }
+            ]
+        }
+    ]
+}

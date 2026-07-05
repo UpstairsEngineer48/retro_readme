@@ -1,0 +1,48 @@
+{
+    "type": "contact",
+    "title": "Contact",
+
+    "panel": {
+        "title": "Contact",
+        "description": [
+            "Ways to connect",
+            "with me online",
+            "and follow my",
+            "future work."
+        ],
+        "pages": [
+            {
+                "title": "Get In Touch",
+                "description": [
+                    "GitHub, LinkedIn,",
+                    "email and other",
+                    "platforms."
+                ],
+                "illustration": "contact"
+            }
+        ]
+    },
+
+    "pages": [
+        {
+            "items": [
+                {
+                    "icon": "github",
+                    "title": "UpstairsEngineer48"
+                },
+                {
+                    "icon": "linkedin",
+                    "title": "linkedin.com/in/pranjal-pandey-ug48/"
+                },
+                {
+                    "icon": "mail",
+                    "title": "workpran48@gmail.com"
+                },
+                {
+                    "icon": "globe",
+                    "title": "Coming Soon"
+                }
+            ]
+        }
+    ]
+}

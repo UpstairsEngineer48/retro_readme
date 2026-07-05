@@ -1,0 +1,65 @@
+{
+    "type": "projects",
+    "title": "Projects",
+
+    "panel": {
+        "title": "Projects",
+        "description": [
+            "A collection of",
+            "software, AI and",
+            "robotics projects",
+            "built while learning."
+        ],
+        "pages": [
+            {
+                "title": "Featured Projects",
+                "description": [
+                    "From competitive",
+                    "programming tools to",
+                    "robotics and SVG",
+                    "applications."
+                ],
+                "illustration": "projects"
+            },
+            {
+                "title": "Featured Projects",
+                "description": [
+                    "Productivity tools",
+                    "involving terminal."
+                ],
+                "illustration": "projects"
+            }
+        ]
+    },
+
+    "pages": [
+        {
+            "items": [
+                {
+                    "title": "CPBoard",
+                    "subtitle": "Competitive Programming Dashboard",
+                    "description": "Flask • SQLite • Codeforces • LeetCode"
+                },
+                {
+                    "title": "Retro README",
+                    "subtitle": "Interactive GitHub Profile",
+                    "description": "SVG • FastAPI • JSON-driven"
+                },
+                {
+                    "title": "Line Follower Robot",
+                    "subtitle": "Arduino Robot",
+                    "description": "ROS2 • IR Sensors • PID"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "title": "Tier",
+                    "subtitle": "Modular Terminal Dashboard",
+                    "description":"Python • Rich • Modular Architecture"
+                }
+            ]
+        }
+    ]
+}

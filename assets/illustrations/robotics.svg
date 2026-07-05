@@ -1,0 +1,42 @@
+<svg viewBox="0 0 250 170" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <g stroke="#0d2b12" stroke-width="4" stroke-linejoin="miter">
+    <!-- antenna -->
+    <line x1="125" y1="30" x2="125" y2="46" stroke="#0d2b12" stroke-width="4"/>
+    <circle cx="125" cy="26" r="6" fill="#8de26b"/>
+
+    <!-- chassis -->
+    <rect x="85" y="46" width="80" height="56" rx="6" fill="#4f9d47"/>
+    <rect x="97" y="58" width="22" height="18" fill="#245e22"/>
+    <rect x="131" y="58" width="22" height="18" fill="#245e22"/>
+
+    <!-- IR sensors -->
+    <circle cx="108" cy="67" r="5" fill="#8de26b" stroke="none"/>
+    <circle cx="142" cy="67" r="5" fill="#8de26b" stroke="none"/>
+    <rect x="95" y="86" width="60" height="8" fill="#8de26b"/>
+
+    <!-- Arduino-style controller (front panel) -->
+    <rect x="102" y="104" width="46" height="26" fill="#8de26b"/>
+    <rect x="108" y="110" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="118" y="110" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="128" y="110" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="138" y="110" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="108" y="120" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="118" y="120" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="128" y="120" width="6" height="6" fill="#245e22" stroke="none"/>
+    <rect x="138" y="120" width="6" height="6" fill="#245e22" stroke="none"/>
+
+    <!-- wheels -->
+    <circle cx="90" cy="122" r="16" fill="#245e22"/>
+    <circle cx="90" cy="122" r="5" fill="#8de26b"/>
+    <circle cx="160" cy="122" r="16" fill="#245e22"/>
+    <circle cx="160" cy="122" r="5" fill="#8de26b"/>
+
+    <!-- small gear -->
+    <circle cx="200" cy="70" r="12" fill="#4f9d47"/>
+    <circle cx="200" cy="70" r="5" fill="#245e22"/>
+    <rect x="196" y="54" width="8" height="8" fill="#4f9d47"/>
+    <rect x="196" y="78" width="8" height="8" fill="#4f9d47"/>
+    <rect x="184" y="66" width="8" height="8" fill="#4f9d47"/>
+    <rect x="208" y="66" width="8" height="8" fill="#4f9d47"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 250 170" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <g stroke="#0d2b12" stroke-width="4" stroke-linejoin="miter">
+    <!-- globe -->
+    <circle cx="60" cy="85" r="34" fill="#4f9d47"/>
+    <ellipse cx="60" cy="85" rx="34" ry="14" fill="none" stroke="#0d2b12" stroke-width="3"/>
+    <ellipse cx="60" cy="85" rx="14" ry="34" fill="none" stroke="#0d2b12" stroke-width="3"/>
+    <line x1="26" y1="85" x2="94" y2="85" stroke="#0d2b12" stroke-width="3"/>
+
+    <!-- wireless signal -->
+    <path d="M 95 45 a 30 30 0 0 1 30 30" fill="none" stroke="#8de26b" stroke-width="5"/>
+    <path d="M 100 55 a 18 18 0 0 1 18 18" fill="none" stroke="#8de26b" stroke-width="5"/>
+    <circle cx="102" cy="75" r="5" fill="#8de26b"/>
+
+    <!-- envelope -->
+    <rect x="130" y="40" width="60" height="40" fill="#8de26b"/>
+    <path d="M 130 40 L 160 62 L 190 40" fill="none" stroke="#0d2b12" stroke-width="4"/>
+
+    <!-- chat bubble -->
+    <rect x="140" y="100" width="50" height="34" rx="6" fill="#4f9d47"/>
+    <path d="M 150 134 l 0 12 l 14 -12 z" fill="#4f9d47"/>
+    <circle cx="153" cy="117" r="3" fill="#245e22" stroke="none"/>
+    <circle cx="165" cy="117" r="3" fill="#245e22" stroke="none"/>
+    <circle cx="177" cy="117" r="3" fill="#245e22" stroke="none"/>
+
+    <!-- phone handset -->
+    <path d="M 200 100 q 10 -10 20 0 l -6 6 q -4 -4 -8 0 q 6 8 12 12 q 4 -4 0 -8 l 6 -6 q 10 10 0 20 q -16 4 -30 -10 q -10 -14 6 -14 z" fill="#8de26b"/>
+  </g>
+</svg>

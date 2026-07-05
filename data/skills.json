@@ -1,0 +1,116 @@
+{
+    "type": "skills",
+    "title": "Skills",
+
+    "panel": {
+        "title": "Skills",
+        "description": [
+            "Technologies and",
+            "tools I use across",
+            "software engineering,",
+            "AI and robotics."
+        ],
+        "pages": [
+            {
+                "title": "Languages",
+                "description": [
+                    "Programming",
+                    "languages used",
+                    "for software and",
+                    "AI development."
+                ],
+                "illustration": "languages"
+            },
+            {
+                "title": "Frameworks & Libraries",
+                "description": [
+                    "Frameworks and",
+                    "libraries for AI,",
+                    "robotics and web",
+                    "development."
+                ],
+                "illustration": "frameworks"
+            },
+            {
+                "title": "Databases",
+                "description": [
+                    "Database",
+                    "technologies used",
+                    "for application",
+                    "development."
+                ],
+                "illustration": "database"
+            },
+            {
+                "title": "Development Tools",
+                "description": [
+                    "Tools used for",
+                    "coding, version",
+                    "control and Linux",
+                    "development."
+                ],
+                "illustration": "tools"
+            }
+        ]
+    },
+
+    "pages": [
+        {
+            "groups": [
+                {
+                    "title": "Languages",
+                    "items": [
+                        "Python",
+                        "C++",
+                        "C",
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "Bash"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "groups": [
+                {
+                    "title": "Frameworks & Libraries",
+                    "items": [
+                        "ROS2",
+                        "Gazebo",
+                        "PyTorch",
+                        "OpenCV",
+                        "Flask",
+                        "NumPy",
+                        "Pandas"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "groups": [
+                {
+                    "title": "Databases",
+                    "items": [
+                        "SQLite"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "groups": [
+                {
+                    "title": "Development Tools",
+                    "items": [
+                        "Git",
+                        "Linux",
+                        "VS Code"
+                    ]
+                }
+            ]
+        }
+    ]
+}

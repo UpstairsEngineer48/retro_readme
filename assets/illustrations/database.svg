@@ -1,0 +1,109 @@
+<svg
+    viewBox="0 0 250 170"
+    xmlns="http://www.w3.org/2000/svg"
+    shape-rendering="crispEdges">
+
+  <defs>
+    <style>
+      .dark{fill:#1f3d17}
+      .mid{fill:#3e6b22}
+      .light{fill:#6fa83c}
+      .bright{fill:#a3d968}
+      .line{stroke:#3e6b22;fill:none;stroke-width:2;stroke-dasharray:4 4}
+    </style>
+  </defs>
+
+  <!-- connectors -->
+  <g class="line">
+    <path d="M95 45 Q95 80 104 80"/>
+    <path d="M95 165 Q95 125 104 125"/>
+    <path d="M196 98 Q212 80 225 98"/>
+  </g>
+
+  <!-- table -->
+  <g>
+    <rect x="35" y="25" width="60" height="45" class="dark" stroke="#a3d968" stroke-width="2"/>
+    <rect x="41" y="31" width="16" height="10" class="light"/>
+    <rect x="60" y="31" width="16" height="10" class="light"/>
+    <rect x="79" y="31" width="10" height="10" class="light"/>
+
+    <rect x="41" y="44" width="16" height="10" class="mid"/>
+    <rect x="60" y="44" width="16" height="10" class="mid"/>
+    <rect x="79" y="44" width="10" height="10" class="mid"/>
+
+    <rect x="41" y="57" width="16" height="8" class="light"/>
+    <rect x="60" y="57" width="16" height="8" class="light"/>
+    <rect x="79" y="57" width="10" height="8" class="light"/>
+  </g>
+
+  <!-- hierarchy -->
+  <g stroke="#3e6b22" stroke-width="2" fill="none">
+    <path d="M65 145 L65 158 M65 158 L40 158 M65 158 L90 158 M40 158 L40 170 M90 158 L90 170"/>
+  </g>
+
+  <g>
+    <rect x="52" y="130" width="26" height="16" class="dark" stroke="#a3d968" stroke-width="2"/>
+    <rect x="28" y="170" width="24" height="16" class="dark" stroke="#a3d968" stroke-width="2"/>
+    <rect x="78" y="170" width="24" height="16" class="dark" stroke="#a3d968" stroke-width="2"/>
+  </g>
+
+  <!-- database -->
+  <g>
+    <path d="M104 34 L104 142 Q150 174 196 142 L196 34 Z" class="mid"/>
+
+    <rect x="104" y="34" width="2" height="108" class="bright"/>
+    <rect x="194" y="34" width="2" height="108" class="bright"/>
+
+    <path d="M104 142 Q150 174 196 142"
+          stroke="#a3d968"
+          stroke-width="2"
+          fill="none"/>
+
+    <rect x="112" y="40" width="7" height="92" class="light"/>
+    <rect x="177" y="40" width="7" height="92" class="dark"/>
+
+    <path d="M104 70 Q150 86 196 70"
+          stroke="#1f3d17"
+          stroke-width="2"
+          fill="none"/>
+
+    <path d="M104 106 Q150 122 196 106"
+          stroke="#1f3d17"
+          stroke-width="2"
+          fill="none"/>
+
+    <ellipse cx="150" cy="34"
+             rx="46"
+             ry="16"
+             class="light"
+             stroke="#a3d968"
+             stroke-width="2"/>
+
+    <ellipse cx="150" cy="32" rx="34" ry="10" class="bright"/>
+    <ellipse cx="150" cy="32" rx="20" ry="6" class="light"/>
+
+    <rect x="164" y="52" width="7" height="7" class="bright"/>
+    <rect x="164" y="88" width="7" height="7" class="bright"/>
+    <rect x="164" y="124" width="7" height="7" class="bright"/>
+  </g>
+
+  <!-- SQL document -->
+  <g>
+    <polygon points="225,90 250,90 260,100 260,135 225,135"
+             class="dark"
+             stroke="#a3d968"
+             stroke-width="2"/>
+
+    <polygon points="250,90 250,100 260,100" class="light"/>
+
+    <text x="242"
+          y="115"
+          text-anchor="middle"
+          class="bright"
+          font-size="13">SQL</text>
+
+    <rect x="230" y="122" width="24" height="4" class="light"/>
+    <rect x="230" y="128" width="16" height="4" class="light"/>
+  </g>
+
+</svg>

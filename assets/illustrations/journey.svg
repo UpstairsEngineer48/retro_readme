@@ -1,0 +1,26 @@
+<svg viewBox="0 0 250 170" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <g stroke="#0d2b12" stroke-width="4" stroke-linejoin="miter">
+    <!-- mountains in the distance -->
+    <path d="M 30 90 L 55 50 L 80 90 Z" fill="#4f9d47"/>
+    <path d="M 65 90 L 95 40 L 125 90 Z" fill="#245e22"/>
+
+    <!-- compass -->
+    <circle cx="205" cy="45" r="20" fill="#8de26b"/>
+    <circle cx="205" cy="45" r="20" fill="none" stroke="#0d2b12" stroke-width="4"/>
+    <path d="M 205 32 L 210 45 L 205 58 L 200 45 Z" fill="#245e22" stroke="none"/>
+    <circle cx="205" cy="45" r="3" fill="#0d2b12" stroke="none"/>
+
+    <!-- curved road -->
+    <path d="M 30 150 Q 90 110 130 130 T 220 100" fill="none" stroke="#0d2b12" stroke-width="22"/>
+    <path d="M 30 150 Q 90 110 130 130 T 220 100" fill="none" stroke="#4f9d47" stroke-width="14"/>
+
+    <!-- milestone markers along road -->
+    <rect x="70" y="118" width="8" height="16" fill="#8de26b"/>
+    <rect x="140" y="112" width="8" height="16" fill="#8de26b"/>
+    <rect x="180" y="98" width="8" height="16" fill="#8de26b"/>
+
+    <!-- flag at destination -->
+    <line x1="222" y1="60" x2="222" y2="100" stroke="#0d2b12" stroke-width="4"/>
+    <path d="M 222 60 h 20 l -8 8 l 8 8 h -20 z" fill="#8de26b"/>
+  </g>
+</svg>

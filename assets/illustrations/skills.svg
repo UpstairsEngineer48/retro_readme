@@ -1,0 +1,55 @@
+<svg viewBox="0 0 250 170" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <g stroke="#0d2b12" stroke-width="4" stroke-linejoin="miter">
+
+    <!-- Chip Body -->
+    <rect x="74" y="38" width="102" height="94" rx="2" fill="#4f9d47"/>
+
+    <!-- Inner Core -->
+    <rect x="98" y="62" width="54" height="46" fill="#245e22"/>
+
+    <!-- Core Details -->
+    <rect x="112" y="76" width="6" height="6" fill="#8de26b" stroke="none"/>
+    <rect x="132" y="76" width="6" height="6" fill="#8de26b" stroke="none"/>
+    <rect x="112" y="92" width="6" height="6" fill="#8de26b" stroke="none"/>
+    <rect x="132" y="92" width="6" height="6" fill="#8de26b" stroke="none"/>
+
+    <!-- Vertical Traces -->
+    <rect x="122" y="38" width="6" height="24" fill="#8de26b" stroke="none"/>
+    <rect x="122" y="108" width="6" height="24" fill="#8de26b" stroke="none"/>
+
+    <!-- Horizontal Traces -->
+    <rect x="74" y="82" width="24" height="6" fill="#8de26b" stroke="none"/>
+    <rect x="152" y="82" width="24" height="6" fill="#8de26b" stroke="none"/>
+
+    <!-- Top Pins -->
+    <rect x="82" y="18" width="6" height="20" fill="#4f9d47"/>
+    <rect x="98" y="18" width="6" height="20" fill="#4f9d47"/>
+    <rect x="114" y="18" width="6" height="20" fill="#4f9d47"/>
+    <rect x="130" y="18" width="6" height="20" fill="#4f9d47"/>
+    <rect x="146" y="18" width="6" height="20" fill="#4f9d47"/>
+    <rect x="162" y="18" width="6" height="20" fill="#4f9d47"/>
+
+    <!-- Bottom Pins -->
+    <rect x="82" y="132" width="6" height="20" fill="#4f9d47"/>
+    <rect x="98" y="132" width="6" height="20" fill="#4f9d47"/>
+    <rect x="114" y="132" width="6" height="20" fill="#4f9d47"/>
+    <rect x="130" y="132" width="6" height="20" fill="#4f9d47"/>
+    <rect x="146" y="132" width="6" height="20" fill="#4f9d47"/>
+    <rect x="162" y="132" width="6" height="20" fill="#4f9d47"/>
+
+    <!-- Left Pins -->
+    <rect x="54" y="46" width="20" height="6" fill="#4f9d47"/>
+    <rect x="54" y="62" width="20" height="6" fill="#4f9d47"/>
+    <rect x="54" y="78" width="20" height="6" fill="#4f9d47"/>
+    <rect x="54" y="94" width="20" height="6" fill="#4f9d47"/>
+    <rect x="54" y="110" width="20" height="6" fill="#4f9d47"/>
+
+    <!-- Right Pins -->
+    <rect x="176" y="46" width="20" height="6" fill="#4f9d47"/>
+    <rect x="176" y="62" width="20" height="6" fill="#4f9d47"/>
+    <rect x="176" y="78" width="20" height="6" fill="#4f9d47"/>
+    <rect x="176" y="94" width="20" height="6" fill="#4f9d47"/>
+    <rect x="176" y="110" width="20" height="6" fill="#4f9d47"/>
+
+  </g>
+</svg>

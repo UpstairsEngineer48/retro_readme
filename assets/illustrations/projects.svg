@@ -1,0 +1,38 @@
+<svg viewBox="0 0 250 170" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <g stroke="#0d2b12" stroke-width="4" stroke-linejoin="miter">
+    <!-- folder -->
+    <path d="M 32 70 h 24 l 8 -10 h 30 v 46 h -62 z" fill="#4f9d47"/>
+    <rect x="32" y="70" width="62" height="8" fill="#8de26b" stroke="none"/>
+
+    <!-- open files -->
+    <rect x="70" y="48" width="30" height="38" fill="#8de26b"/>
+    <rect x="80" y="42" width="30" height="38" fill="#4f9d47"/>
+    <rect x="87" y="52" width="16" height="4" fill="#245e22" stroke="none"/>
+    <rect x="87" y="60" width="16" height="4" fill="#245e22" stroke="none"/>
+    <rect x="87" y="68" width="10" height="4" fill="#245e22" stroke="none"/>
+
+    <!-- computer monitor -->
+    <rect x="140" y="46" width="66" height="48" rx="4" fill="#4f9d47"/>
+    <rect x="150" y="56" width="46" height="28" fill="#245e22"/>
+    <rect x="164" y="94" width="18" height="8" fill="#4f9d47"/>
+    <rect x="154" y="102" width="38" height="6" fill="#8de26b"/>
+
+    <!-- small gear -->
+    <circle cx="60" cy="122" r="13" fill="#4f9d47"/>
+    <circle cx="60" cy="122" r="5" fill="#245e22"/>
+    <rect x="55" y="105" width="10" height="8" fill="#4f9d47"/>
+    <rect x="55" y="131" width="10" height="8" fill="#4f9d47"/>
+    <rect x="43" y="118" width="8" height="8" fill="#4f9d47"/>
+    <rect x="69" y="118" width="8" height="8" fill="#4f9d47"/>
+
+    <!-- branching workflow lines -->
+    <circle cx="110" cy="130" r="6" fill="#8de26b"/>
+    <circle cx="150" cy="115" r="6" fill="#8de26b"/>
+    <circle cx="150" cy="145" r="6" fill="#8de26b"/>
+    <circle cx="190" cy="130" r="6" fill="#8de26b"/>
+    <line x1="110" y1="130" x2="150" y2="115" stroke="#8de26b" stroke-width="3"/>
+    <line x1="110" y1="130" x2="150" y2="145" stroke="#8de26b" stroke-width="3"/>
+    <line x1="150" y1="115" x2="190" y2="130" stroke="#8de26b" stroke-width="3"/>
+    <line x1="150" y1="145" x2="190" y2="130" stroke="#8de26b" stroke-width="3"/>
+  </g>
+</svg>
