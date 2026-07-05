@@ -43,6 +43,10 @@ def input(
     state = app.state
 
     return RedirectResponse(
-        url="https://github.com/UpstairsEngineer48/UpstairsEngineer48",
+        url=(
+            f"/?s={state.current_screen}"
+            f"&p={state.current_page}"
+            f"&m={state.menu_selection}"
+        ),
         status_code=303,
     )
