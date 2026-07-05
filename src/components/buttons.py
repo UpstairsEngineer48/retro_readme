@@ -1,6 +1,7 @@
 from ..layout import LayoutEngine
 from ..utils.svg import group, circle, text, link
 from ..state import AppState
+from ..config import BASE_URL
 
 
 def _button(cx, cy, label, href, pressed=False):
@@ -77,7 +78,7 @@ def render(state: AppState) -> str:
         ax,
         ay,
         "A",
-        f"/input?btn=A&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=A&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
         state.pressed == "A",
     )
 
@@ -85,7 +86,7 @@ def render(state: AppState) -> str:
         bx,
         by,
         "B",
-        f"/input?btn=B&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=B&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
         state.pressed == "B",
     )
 
