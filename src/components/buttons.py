@@ -78,7 +78,7 @@ def render(state: AppState) -> str:
         ax,
         ay,
         "A",
-        f"{BASE_URL}/input?btn=A&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=A&return_to=vercel",
         state.pressed == "A",
     )
 
@@ -86,12 +86,11 @@ def render(state: AppState) -> str:
         bx,
         by,
         "B",
-        f"{BASE_URL}/input?btn=B&s={state.current_screen}&p={state.current_page}&m={state.menu_selection}",
+        f"{BASE_URL}/input?btn=B&return_to=vercel",
         state.pressed == "B",
     )
 
     return group(
         a_button,
         b_button,
-        id="buttons",
     )
