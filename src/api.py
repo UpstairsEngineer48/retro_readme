@@ -5,8 +5,10 @@ from .application import Application
 
 router = APIRouter()
 
-# Persistent application (README mode)
+# Persistent application used by the interactive README.
 live_app = Application()
+
+GITHUB_URL = "https://github.com/UpstairsEngineer48"
 
 
 @router.get("/")
@@ -18,6 +20,7 @@ def render(
     # Stateless mode (existing behaviour)
     if s is not None:
         app = Application()
+
         app.state.current_screen = s
         app.state.current_page = p or 0
         app.state.menu_selection = m or 0
@@ -27,7 +30,7 @@ def render(
             media_type="image/svg+xml",
         )
 
-    # Persistent mode (README)
+    # Persistent mode (README / Vercel demo)
     return Response(
         live_app.render(),
         media_type="image/svg+xml",
@@ -35,11 +38,20 @@ def render(
 
 
 @router.get("/input")
-def input(btn: str):
+def input(
+    btn: str,
+    return_to: str = "vercel",
+):
     live_app.state.pressed = btn
     live_app.handle(btn)
 
+    if return_to == "github":
+        return RedirectResponse(
+            url=GITHUB_URL,
+            status_code=303,
+        )
+
     return RedirectResponse(
-        url="https://github.com/UpstairsEngineer48",
+        url="/",
         status_code=303,
     )
