@@ -40,6 +40,6 @@ def input(btn: str):
     live_app.handle(btn)
 
     return RedirectResponse(
-        url="https://github.com/<username>/<repo>",
+        url="https://github.com/UpstairsEngineer48",
         status_code=303,
     )
