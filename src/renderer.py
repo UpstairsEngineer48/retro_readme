@@ -16,7 +16,10 @@ from .utils.svg import svg
 from .screens import SCREENS
 from .state import AppState
 from .components.panel import render as render_panel
+from datetime import datetime
 
+
+local_now = str(datetime.now()).split()[-1][:8]
 from .layout import LayoutEngine
 
 
@@ -34,7 +37,7 @@ class Renderer:
         )
 
         status = StatusBar(
-            time="15:30",
+            time=local_now,
             battery_level=100,
         )
 
