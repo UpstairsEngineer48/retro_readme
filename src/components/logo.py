@@ -13,7 +13,7 @@ def render() -> str:
         text(
             center,
             lcd.y + 72,
-            "PRANJAL OS",
+            "UPSTAIRS OS",
             text_anchor="middle",
             font_family="PixelOperator",
             font_size=34,
