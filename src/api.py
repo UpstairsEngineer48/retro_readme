@@ -5,6 +5,9 @@ from .application import Application
 
 router = APIRouter()
 
+# Stop GitHub/browsers caching the SVG so the clock and battery refresh.
+NO_CACHE={"Cache-Control":"no-cache, no-store, must-revalidate"}
+
 # Persistent application used by the interactive README.
 live_app = Application()
 
@@ -28,12 +31,14 @@ def render(
         return Response(
             app.render(),
             media_type="image/svg+xml",
+            headers=NO_CACHE,
         )
 
     # Persistent mode (README / Vercel demo)
     return Response(
         live_app.render(),
         media_type="image/svg+xml",
+        headers=NO_CACHE,
     )
 
 
