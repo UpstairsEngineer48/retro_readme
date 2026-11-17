@@ -16,11 +16,33 @@ from .utils.svg import svg
 from .screens import SCREENS
 from .state import AppState
 from .components.panel import render as render_panel
-from datetime import datetime
-
-
-local_now = str(datetime.now()).split()[-1][:8]
+import random
+from datetime import datetime,timezone
+from zoneinfo import ZoneInfo
 from .layout import LayoutEngine
+
+US_TIMEZONE="America/New_York"
+
+
+def us_time()->str:
+    """
+    Current US (Eastern) time as HH:MM:SS, computed on every render.
+    """
+
+    try:
+        now=datetime.now(ZoneInfo(US_TIMEZONE))
+    except Exception:
+        now=datetime.now(timezone.utc)
+
+    return now.strftime("%H:%M:%S")
+
+
+def random_battery()->int:
+    """
+    Random battery percentage, re-rolled on every render.
+    """
+
+    return random.randint(10,100)
 
 
 class Renderer:
@@ -37,8 +59,8 @@ class Renderer:
         )
 
         status = StatusBar(
-            time=local_now,
-            battery_level=100,
+            time=us_time(),
+            battery_level=random_battery(),
         )
 
         return svg(
