@@ -1,7 +1,6 @@
 {
     "type": "projects",
     "title": "Projects",
-
     "panel": {
         "title": "Projects",
         "description": [
@@ -22,6 +21,16 @@
                 "illustration": "projects"
             },
             {
+                "title": "Robotics Projects",
+                "description": [
+                    "Autonomous drones,",
+                    "legged robots and",
+                    "reinforcement",
+                    "learning in simulation."
+                ],
+                "illustration": "robotics"
+            },
+            {
                 "title": "Featured Projects",
                 "description": [
                     "Productivity tools",
@@ -31,7 +40,6 @@
             }
         ]
     },
-
     "pages": [
         {
             "items": [
@@ -55,9 +63,28 @@
         {
             "items": [
                 {
+                    "title": "Aerial Mapping Pipeline",
+                    "subtitle": "Hexacopter Victim Search",
+                    "description": "ROS 2 • Gazebo • OpenCV • A*"
+                },
+                {
+                    "title": "Hexapod RL Locomotion",
+                    "subtitle": "PPO on Rough Terrain",
+                    "description": "PPO • MuJoCo Warp • RSL-RL"
+                },
+                {
+                    "title": "Hexapod Gait Control",
+                    "subtitle": "Tripod & Ripple Gaits",
+                    "description": "ROS 2 • Gazebo • PID • IMU"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
                     "title": "Tier",
                     "subtitle": "Modular Terminal Dashboard",
-                    "description":"Python • Rich • Modular Architecture"
+                    "description": "Python • Rich • Modular Architecture"
                 }
             ]
         }
