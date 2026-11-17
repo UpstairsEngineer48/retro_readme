@@ -66,6 +66,59 @@ retro_readme/
 
 ---
 
+## Fork it and make it yours
+
+This project is meant to be forked. Each person runs **their own copy** with their own data, their own Vercel app and their own profile README. Follow these steps in order.
+
+### 1. Fork and clone
+
+Click **Fork** on GitHub, then clone your fork.
+
+### 2. Replace the personal details
+
+These are the only places that contain someone's identity. Change all of them:
+
+| File | What to change |
+|---|---|
+| `data/profile.json` | Your name, role, education, interests, GitHub handle |
+| `data/contact.json` | Your GitHub, LinkedIn, email and website |
+| `data/projects.json` | Your projects (delete mine) |
+| `data/skills.json` | Your skills |
+| `data/journey.json` | Your timeline |
+| `data/home.json` | `panel.title` (the device name) and the panel texts |
+| `src/components/logo.py` | The device name on the LCD, keep it the same as `home.json` |
+| `src/api.py` | `GITHUB_URL`, set it to **your** profile URL |
+| `src/config.py` | `BASE_URL`, set it to **your** Vercel URL (see step 4) |
+| `README.md` | The demo link and the author line at the bottom |
+
+> **Do not skip `BASE_URL` and `GITHUB_URL`.** Every button drawn on the device links to `BASE_URL`, and `GITHUB_URL` is where visitors are sent back to. If you leave mine in, your buttons will control **my** device and send people to **my** profile.
+
+### 3. Test locally
+
+```bash
+pip install -r requirements.txt
+uvicorn server:app --reload
+```
+
+Open http://127.0.0.1:8000 and click through every screen. If something crashes, see **Common problems** at the bottom.
+
+### 4. Deploy to Vercel
+
+1. Push your fork to GitHub.
+2. Import it in Vercel. No build settings needed.
+3. Copy the URL Vercel gives you (for example `https://my-retro.vercel.app`).
+4. Put that URL in `BASE_URL` in `src/config.py`, then commit and push again.
+
+### 5. Show it on your profile
+
+Your profile README is the repo named exactly like your username (for example `your-username/your-username`). Add the image and the button links from the snippet in **Using it in a GitHub profile README** below, with your own Vercel URL.
+
+### 6. Keep it yours
+
+Anything else you want to add or change is covered in the customization guide further down.
+
+---
+
 ## Running locally
 
 ```bash
@@ -89,11 +142,11 @@ The repo is set up for **Vercel**:
 2. Import the repo in Vercel. No build settings are needed, `vercel.json` handles it.
 3. Every push to the main branch redeploys automatically.
 
-If you change the Vercel URL, update `BASE_URL` in `src/config.py` and the links in your profile README.
+Whenever the Vercel URL changes, update `BASE_URL` in `src/config.py` and the links in your profile README.
 
 ### Using it in a GitHub profile README
 
-Show the image and wrap invisible link areas over each button, pointing at `/input` with `return_to=github` so the user lands back on your profile:
+Show the image, then add one link per button. Buttons drawn inside the SVG point at your Vercel site (`return_to=vercel`), which works on the demo page but not inside a GitHub README image. So in your profile README, add your own links with `return_to=github`, which send the visitor straight back to your profile:
 
 ```markdown
 <img src="https://YOUR-APP.vercel.app/" alt="Retro README">
@@ -106,11 +159,13 @@ Show the image and wrap invisible link areas over each button, pointing at `/inp
 [B](https://YOUR-APP.vercel.app/input?btn=B&return_to=github)
 ```
 
+This is the simplest working version. You can style it with an HTML table or image links.
+
 > The server keeps one shared state for everyone (`live_app` in `src/api.py`), so all visitors see the same screen. GitHub also caches images, so a change can take a moment to show.
 
 ---
 
-# Contributor guide: how to add things
+# Customization guide: how to add things
 
 Almost everything is a JSON edit. After any change, run the server and open the screen to check it fits.
 
@@ -325,6 +380,6 @@ The menu is drawn at 35 px per row, so keep it to about 6 items to avoid running
 | A | Open the selected item |
 | B | Back to the main menu |
 
-## Author
+## Credits
 
-[@UpstairsEngineer48](https://github.com/UpstairsEngineer48)
+Created by [@UpstairsEngineer48](https://github.com/UpstairsEngineer48). If you fork it, add your own name here and keep a link back if you like.
